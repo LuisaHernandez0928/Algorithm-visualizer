@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "baseUrl": "./",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "ES2015",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "paths": {
+      "@components/*": ["./src/ui/components/*"],
+      "@sections/*": ["./src/ui/section/*"],
+      "@globalTypes/*": ["./src/ui/types/*"],
+      "@src/*": ["./src/*"],
+      "@data/*": ["./src/data/*"]
+    },
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+  }
+}

@@ -1,0 +1,23 @@
+.basicButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    border-radius: 16px;
+    border: 1px solid var(--federal-blue);
+    font-weight: 700 !important;
+    padding: 8px 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.visualizeAlgorithm {
+    color: rgb(3, 68, 65);
+    background-color: rgb(157, 248, 218);
+}
+
+.clearButton {
+    color: rgb(113, 7, 212);
+    background-color: rgb(199, 153, 243);
+}

@@ -1,0 +1,28 @@
+.node {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ddd;
+  margin: 0;
+}
+
+.selectedStyle {
+  background: var(--gradient-bottom-right);
+}
+
+.basicNode {
+  background-color: white;
+}
+
+.wallNode {
+  background-color: black;
+}
+
+.endNode {
+  background-color: green !important;
+}
+
+.startNode {
+  background-color: red !important;
+}
